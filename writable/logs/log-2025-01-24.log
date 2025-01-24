@@ -1,0 +1,1127 @@
+CRITICAL - 2025-01-24 09:30:59 --> Call to undefined function App\Controllers\write_log()
+in APPPATH\Controllers\Service.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:32:09 --> Call to undefined function App\Controllers\get_client_ip()
+in APPPATH\Controllers\Service.php on line 486.
+ 1 APPPATH\Controllers\Service.php(92): App\Controllers\Service->write_log('{"ret_code":"202","msg":"Invalid data username","data":""}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:32:48 --> file_put_contents(logs/log_20250124.txt): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Service.php on line 489.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(logs/log_20250124.txt): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Service.php', 489)
+ 2 APPPATH\Controllers\Service.php(489): file_put_contents('logs/log_20250124.txt', '2025-01-24 09:32:48
+IP :180.183.250.244
+DATA : {"ret_code":"202","msg":"Invalid data username","data":""}
+-------------------------
+', 8)
+ 3 APPPATH\Controllers\Service.php(92): App\Controllers\Service->write_log('{"ret_code":"202","msg":"Invalid data username","data":""}')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:34:13 --> Too few arguments to function App\Models\Mydev_model::execute(), 0 passed in C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php on line 265 and exactly 1 expected
+in APPPATH\Models\Mydev_model.php on line 22.
+ 1 APPPATH\Controllers\Service.php(265): App\Models\Mydev_model->execute()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:34:15 --> Too few arguments to function App\Models\Mydev_model::execute(), 0 passed in C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php on line 265 and exactly 1 expected
+in APPPATH\Models\Mydev_model.php on line 22.
+ 1 APPPATH\Controllers\Service.php(265): App\Models\Mydev_model->execute()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:34:16 --> Too few arguments to function App\Models\Mydev_model::execute(), 0 passed in C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php on line 265 and exactly 1 expected
+in APPPATH\Models\Mydev_model.php on line 22.
+ 1 APPPATH\Controllers\Service.php(265): App\Models\Mydev_model->execute()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:34:16 --> Too few arguments to function App\Models\Mydev_model::execute(), 0 passed in C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php on line 265 and exactly 1 expected
+in APPPATH\Models\Mydev_model.php on line 22.
+ 1 APPPATH\Controllers\Service.php(265): App\Models\Mydev_model->execute()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:34:26 --> Too few arguments to function App\Models\Mydev_model::execute(), 0 passed in C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php on line 265 and exactly 1 expected
+in APPPATH\Models\Mydev_model.php on line 22.
+ 1 APPPATH\Controllers\Service.php(265): App\Models\Mydev_model->execute()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:34:55 --> Too few arguments to function App\Models\Mydev_model::execute(), 0 passed in C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php on line 265 and exactly 1 expected
+in APPPATH\Models\Mydev_model.php on line 22.
+ 1 APPPATH\Controllers\Service.php(265): App\Models\Mydev_model->execute()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:35:05 --> Too few arguments to function App\Models\Mydev_model::execute(), 0 passed in C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php on line 265 and exactly 1 expected
+in APPPATH\Models\Mydev_model.php on line 22.
+ 1 APPPATH\Controllers\Service.php(265): App\Models\Mydev_model->execute()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:38:33 --> Undefined variable $citizin_id
+in APPPATH\Controllers\Service.php on line 35.
+ 1 APPPATH\Controllers\Service.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $citizin_id', 'APPPATH\\Controllers\\Service.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:38:42 --> Undefined variable $citizin_id
+in APPPATH\Controllers\Service.php on line 35.
+ 1 APPPATH\Controllers\Service.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $citizin_id', 'APPPATH\\Controllers\\Service.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:40:35 --> Undefined property: stdClass::$cid
+in APPPATH\Controllers\Service.php on line 51.
+ 1 APPPATH\Controllers\Service.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$cid', 'APPPATH\\Controllers\\Service.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:40:46 --> Undefined property: stdClass::$cid
+in APPPATH\Controllers\Service.php on line 51.
+ 1 APPPATH\Controllers\Service.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$cid', 'APPPATH\\Controllers\\Service.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:41:10 --> Undefined property: stdClass::$cid
+in APPPATH\Controllers\Service.php on line 51.
+ 1 APPPATH\Controllers\Service.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$cid', 'APPPATH\\Controllers\\Service.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:42:32 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 39.
+ 1 APPPATH\Controllers\Service.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:47:10 --> file_put_contents(log/logs20250124.txt): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Service.php on line 524.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(log/logs20250124.txt): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Service.php', 524)
+ 2 APPPATH\Controllers\Service.php(524): file_put_contents('log/logs20250124.txt', '2025-01-24 09:47:10
+IP :180.183.250.244
+DATA : {"ret_code":"202","msg":"Invalid data username","data":""}
+-------------------------
+', 8)
+ 3 APPPATH\Controllers\Service.php(95): App\Controllers\Service->write_log('{"ret_code":"202","msg":"Invalid data username","data":""}')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 09:47:39 --> file_put_contents(logs/log_20250124.txt): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Service.php on line 524.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(logs/log_20250124.txt): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Service.php', 524)
+ 2 APPPATH\Controllers\Service.php(524): file_put_contents('logs/log_20250124.txt', '2025-01-24 09:47:39
+IP :180.183.250.244
+DATA : {"ret_code":"202","msg":"Invalid data username","data":""}
+-------------------------
+', 8)
+ 3 APPPATH\Controllers\Service.php(95): App\Controllers\Service->write_log('{"ret_code":"202","msg":"Invalid data username","data":""}')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 10:59:22 --> Undefined array key "username"
+in APPPATH\Views\login_success.php on line 18.
+ 1 APPPATH\Views\login_success.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\login_success.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login_success.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('login_success', [], true)
+ 5 APPPATH\Controllers\Service.php(529): view('login_success')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->login_success()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 11:03:55 --> Array to string conversion
+in APPPATH\Views\login_success.php on line 17.
+ 1 APPPATH\Views\login_success.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\login_success.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login_success.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('login_success', [], true)
+ 5 APPPATH\Controllers\Service.php(529): view('login_success')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->login_success()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 04:46:25 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Service.php on line 25.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/api_list')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/api_list')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/api_list')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 11:46:37 --> Undefined variable $data
+in APPPATH\Controllers\Service.php on line 20.
+ 1 APPPATH\Controllers\Service.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Service.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 12:59:58 --> md5(): Argument #1 ($string) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 30.
+ 1 APPPATH\Controllers\Service.php(30): md5(Object(App\Libraries\curl))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:06:54 --> md5(): Argument #1 ($string) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 30.
+ 1 APPPATH\Controllers\Service.php(30): md5(Object(App\Libraries\curl))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:07:56 --> md5(): Argument #1 ($string) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 30.
+ 1 APPPATH\Controllers\Service.php(30): md5(Object(App\Libraries\curl))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:11:30 --> md5(): Argument #1 ($string) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 31.
+ 1 APPPATH\Controllers\Service.php(31): md5(Object(App\Libraries\curl))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:11:38 --> md5(): Argument #1 ($string) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 31.
+ 1 APPPATH\Controllers\Service.php(31): md5(Object(App\Libraries\curl))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:12:37 --> md5(): Argument #1 ($string) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 31.
+ 1 APPPATH\Controllers\Service.php(31): md5(Object(App\Libraries\curl))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:13:06 --> md5(): Argument #1 ($string) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 31.
+ 1 APPPATH\Controllers\Service.php(31): md5(Object(App\Libraries\curl))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:13:23 --> md5(): Argument #1 ($string) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 31.
+ 1 APPPATH\Controllers\Service.php(31): md5(Object(App\Libraries\curl))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:13:50 --> md5(): Argument #1 ($string) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 31.
+ 1 APPPATH\Controllers\Service.php(31): md5(Object(App\Libraries\curl))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:19:39 --> md5(): Argument #1 ($string) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 31.
+ 1 APPPATH\Controllers\Service.php(31): md5(Object(App\Libraries\curl))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:20:21 --> md5(): Argument #1 ($string) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 31.
+ 1 APPPATH\Controllers\Service.php(31): md5(Object(App\Libraries\curl))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:23:33 --> md5(): Argument #1 ($string) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 31.
+ 1 APPPATH\Controllers\Service.php(31): md5(Object(App\Libraries\curl))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:23:40 --> md5(): Argument #1 ($string) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 31.
+ 1 APPPATH\Controllers\Service.php(31): md5(Object(App\Libraries\curl))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 06:28:55 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Service.php on line 35.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/api_list')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/api_list')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/api_list')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:29:19 --> date_format() expects exactly 2 arguments, 1 given
+in APPPATH\Controllers\Service.php on line 18.
+ 1 APPPATH\Controllers\Service.php(18): date_format('Y-m-d h:i:s')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:29:59 --> Undefined variable $token
+in APPPATH\Controllers\Service.php on line 30.
+ 1 APPPATH\Controllers\Service.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $token', 'APPPATH\\Controllers\\Service.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:30:45 --> md5(): Argument #1 ($string) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 34.
+ 1 APPPATH\Controllers\Service.php(34): md5(Object(App\Libraries\curl))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:33:16 --> Undefined property: App\Controllers\Service::$input
+in APPPATH\Controllers\Service.php on line 36.
+ 1 APPPATH\Controllers\Service.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Service::$input', 'APPPATH\\Controllers\\Service.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:34:08 --> Undefined property: App\Controllers\Service::$input
+in APPPATH\Controllers\Service.php on line 36.
+ 1 APPPATH\Controllers\Service.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Service::$input', 'APPPATH\\Controllers\\Service.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:34:24 --> Undefined property: App\Controllers\Service::$input
+in APPPATH\Controllers\Service.php on line 36.
+ 1 APPPATH\Controllers\Service.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Service::$input', 'APPPATH\\Controllers\\Service.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:34:50 --> Undefined property: App\Controllers\Service::$input
+in APPPATH\Controllers\Service.php on line 36.
+ 1 APPPATH\Controllers\Service.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Service::$input', 'APPPATH\\Controllers\\Service.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:34:59 --> Undefined property: App\Controllers\Service::$input
+in APPPATH\Controllers\Service.php on line 36.
+ 1 APPPATH\Controllers\Service.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Service::$input', 'APPPATH\\Controllers\\Service.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:35:17 --> Undefined property: App\Controllers\Service::$input
+in APPPATH\Controllers\Service.php on line 36.
+ 1 APPPATH\Controllers\Service.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Service::$input', 'APPPATH\\Controllers\\Service.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:37:48 --> Undefined property: App\Controllers\Service::$input
+in APPPATH\Controllers\Service.php on line 33.
+ 1 APPPATH\Controllers\Service.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Service::$input', 'APPPATH\\Controllers\\Service.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:39:58 --> Undefined property: App\Controllers\Service::$input
+in APPPATH\Controllers\Service.php on line 33.
+ 1 APPPATH\Controllers\Service.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Service::$input', 'APPPATH\\Controllers\\Service.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:40:05 --> Undefined property: App\Controllers\Service::$input
+in APPPATH\Controllers\Service.php on line 33.
+ 1 APPPATH\Controllers\Service.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Service::$input', 'APPPATH\\Controllers\\Service.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:45:04 --> Undefined property: App\Controllers\Service::$input
+in APPPATH\Controllers\Service.php on line 33.
+ 1 APPPATH\Controllers\Service.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Service::$input', 'APPPATH\\Controllers\\Service.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:45:21 --> Undefined property: App\Controllers\Service::$input
+in APPPATH\Controllers\Service.php on line 33.
+ 1 APPPATH\Controllers\Service.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Service::$input', 'APPPATH\\Controllers\\Service.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:47:58 --> Too few arguments to function App\Libraries\curl::post(), 1 passed in C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php on line 33 and at least 2 expected
+in APPPATH\Libraries\curl.php on line 76.
+ 1 APPPATH\Controllers\Service.php(33): App\Libraries\curl->post('d')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:48:40 --> Undefined property: App\Controllers\Service::$input
+in APPPATH\Controllers\Service.php on line 33.
+ 1 APPPATH\Controllers\Service.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Service::$input', 'APPPATH\\Controllers\\Service.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:56:59 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Service.php on line 32.
+ 1 APPPATH\Controllers\Service.php(32): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:57:36 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Service.php on line 32.
+ 1 APPPATH\Controllers\Service.php(32): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:58:26 --> Attempt to read property "user_name" on array
+in APPPATH\Controllers\Service.php on line 32.
+ 1 APPPATH\Controllers\Service.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_name" on array', 'APPPATH\\Controllers\\Service.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:58:41 --> Undefined array key 0
+in APPPATH\Controllers\Service.php on line 32.
+ 1 APPPATH\Controllers\Service.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Service.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:58:51 --> Undefined array key "username"
+in APPPATH\Controllers\Service.php on line 32.
+ 1 APPPATH\Controllers\Service.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Service.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 06:59:38 --> syntax error, unexpected token "[", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Service.php on line 36.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/api_list')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/api_list')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/api_list')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 13:59:46 --> Cannot use object of type App\Libraries\curl as array
+in APPPATH\Controllers\Service.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:02:00 --> json_decode(): Argument #1 ($json) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 35.
+ 1 APPPATH\Controllers\Service.php(35): json_decode(Object(App\Libraries\curl), true)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:03:22 --> json_decode(): Argument #1 ($json) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 35.
+ 1 APPPATH\Controllers\Service.php(35): json_decode(Object(App\Libraries\curl), true)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:03:34 --> json_decode(): Argument #1 ($json) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 35.
+ 1 APPPATH\Controllers\Service.php(35): json_decode(Object(App\Libraries\curl), true)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:04:20 --> json_decode(): Argument #1 ($json) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 36.
+ 1 APPPATH\Controllers\Service.php(36): json_decode(Object(App\Libraries\curl), true)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:04:45 --> json_decode(): Argument #1 ($json) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 36.
+ 1 APPPATH\Controllers\Service.php(36): json_decode(Object(App\Libraries\curl), true)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:04:55 --> json_decode(): Argument #1 ($json) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 36.
+ 1 APPPATH\Controllers\Service.php(36): json_decode(Object(App\Libraries\curl), true)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:05:12 --> json_decode(): Argument #1 ($json) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 36.
+ 1 APPPATH\Controllers\Service.php(36): json_decode(Object(App\Libraries\curl))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:05:57 --> Cannot use object of type App\Libraries\curl as array
+in APPPATH\Controllers\Service.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 07:06:13 --> syntax error, unexpected token "[", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Service.php on line 40.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/api_list')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/api_list')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/api_list')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:10:52 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 41.
+ 1 APPPATH\Controllers\Service.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:11:12 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 41.
+ 1 APPPATH\Controllers\Service.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:13:33 --> json_decode(): Argument #1 ($json) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 36.
+ 1 APPPATH\Controllers\Service.php(36): json_decode(Object(App\Libraries\curl), true)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:13:44 --> json_decode(): Argument #1 ($json) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 36.
+ 1 APPPATH\Controllers\Service.php(36): json_decode(Object(App\Libraries\curl), true)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:13:52 --> json_decode(): Argument #1 ($json) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 36.
+ 1 APPPATH\Controllers\Service.php(36): json_decode(Object(App\Libraries\curl), true)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:13:59 --> json_decode(): Argument #1 ($json) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 36.
+ 1 APPPATH\Controllers\Service.php(36): json_decode(Object(App\Libraries\curl), true)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:14:16 --> json_decode(): Argument #1 ($json) must be of type string, App\Libraries\curl given
+in APPPATH\Controllers\Service.php on line 36.
+ 1 APPPATH\Controllers\Service.php(36): json_decode(Object(App\Libraries\curl), true)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:14:57 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Service.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 07:15:55 --> syntax error, unexpected single-quoted string "user_country", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Service.php on line 44.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/api_list')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/api_list')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/api_list')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 07:18:01 --> syntax error, unexpected token ")", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Service.php on line 46.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/api_list')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/api_list')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/api_list')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 07:18:07 --> syntax error, unexpected token ")", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Service.php on line 46.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/api_list')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/api_list')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/api_list')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:18:46 --> Undefined property: App\Libraries\curl::$more_data
+in APPPATH\Controllers\Service.php on line 46.
+ 1 APPPATH\Controllers\Service.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Libraries\\curl::$more_data', 'APPPATH\\Controllers\\Service.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:19:31 --> Attempt to read property "more_data" on string
+in APPPATH\Controllers\Service.php on line 46.
+ 1 APPPATH\Controllers\Service.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "more_data" on string', 'APPPATH\\Controllers\\Service.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:20:14 --> Attempt to read property "message" on string
+in APPPATH\Controllers\Service.php on line 46.
+ 1 APPPATH\Controllers\Service.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "message" on string', 'APPPATH\\Controllers\\Service.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:20:56 --> Attempt to read property "user_name" on string
+in APPPATH\Controllers\Service.php on line 46.
+ 1 APPPATH\Controllers\Service.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_name" on string', 'APPPATH\\Controllers\\Service.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:22:22 --> Attempt to read property "user_name" on string
+in APPPATH\Controllers\Service.php on line 48.
+ 1 APPPATH\Controllers\Service.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_name" on string', 'APPPATH\\Controllers\\Service.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:22:27 --> Attempt to read property "user_name" on string
+in APPPATH\Controllers\Service.php on line 48.
+ 1 APPPATH\Controllers\Service.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_name" on string', 'APPPATH\\Controllers\\Service.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:23:16 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Service.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 07:25:02 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\Service.php on line 53.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/api_list')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/api_list')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/api_list')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:28:17 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 49.
+ 1 APPPATH\Controllers\Service.php(49): count('[HINY] 🐛 call🍑🍼')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:28:23 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 49.
+ 1 APPPATH\Controllers\Service.php(49): count('[HINY] 🐛 call🍑🍼')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:29:09 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Service.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:41:08 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php on line 58
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Service.php(58): view('table_luck', '[WoW]oil<br>[ ely ] luccy🎀<br>🦄LAOS🥀🌻🌻🥀🦄🌈<br>[HINY] DOLLY 🦪💦<br>HINY sam<br>(ELY) Anna🦋<br>𝙏𝙂𝘼🐯Mie😸นู๋มี่<br>𝙏𝙂𝘼🐯 Jaogaem<br>LAOS🍦 rinradaice 🍦🦄🌸<br>[ELY] mini💋<br>[ZEED]🫦ออกัส<br>YaYa NaNa🐛🍒<br>[HINY] 🐛 call🍑🍼<br>[HOPE]🧚🏼‍♀️ญาญี๋💋<br>[HINY] Bae 🌷🦋<br>')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:41:25 --> Invalid file: "table_luck.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table_luck.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_luck', [], true)
+ 3 APPPATH\Controllers\Service.php(58): view('table_luck', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:41:49 --> Invalid file: "table_luck.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table_luck.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_luck', [], true)
+ 3 APPPATH\Controllers\Service.php(58): view('table_luck')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:42:22 --> Invalid file: "table_luck.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table_luck.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_luck', [], true)
+ 3 APPPATH\Controllers\Service.php(58): view('table_luck')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:42:31 --> Invalid file: "table_luck.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table_luck.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_luck', [], true)
+ 3 APPPATH\Controllers\Service.php(58): view('table_luck')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:48:10 --> Invalid file: "table_luck.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table_luck.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_luck', [], true)
+ 3 APPPATH\Controllers\Service.php(58): view('table_luck')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:48:28 --> Invalid file: "table_luck.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table_luck.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_luck', [], true)
+ 3 APPPATH\Controllers\Service.php(58): view('table_luck')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:57:38 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 62.
+ 1 APPPATH\Controllers\Service.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:58:21 --> Invalid file: "table_luck.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table_luck.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_luck', [], true)
+ 3 APPPATH\Controllers\Service.php(71): view('table_luck')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 14:59:41 --> Invalid file: "table_luck.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table_luck.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_luck', [], true)
+ 3 APPPATH\Controllers\Service.php(71): view('table_luck', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:00:19 --> Invalid file: "table_luck.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table_luck.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_luck', [], true)
+ 3 APPPATH\Controllers\Service.php(71): view('table_luck', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:02:27 --> Invalid file: "table_luck.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table_luck.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_luck', [], true)
+ 3 APPPATH\Controllers\Service.php(71): view('table_luck', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:07:36 --> Undefined variable $send_data_to_view_arr
+in APPPATH\Views\table_lucky.php on line 23.
+ 1 APPPATH\Views\table_lucky.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $send_data_to_view_arr', 'APPPATH\\Views\\table_lucky.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:18:38 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\table_lucky.php on line 17.
+ 1 APPPATH\Views\table_lucky.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\table_lucky.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:24:38 --> Undefined variable $i
+in APPPATH\Views\table_lucky.php on line 24.
+ 1 APPPATH\Views\table_lucky.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'APPPATH\\Views\\table_lucky.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:25:31 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\table_lucky.php on line 21.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 4 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:25:46 --> Undefined variable $tr_row
+in APPPATH\Views\table_lucky.php on line 28.
+ 1 APPPATH\Views\table_lucky.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tr_row', 'APPPATH\\Views\\table_lucky.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:29:45 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\table_lucky.php on line 19.
+ 1 APPPATH\Views\table_lucky.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\table_lucky.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:30:11 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\table_lucky.php on line 19.
+ 1 APPPATH\Views\table_lucky.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\table_lucky.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:31:15 --> syntax error, unexpected token "echo"
+in APPPATH\Views\table_lucky.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 3 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:31:41 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\table_lucky.php on line 20.
+ 1 APPPATH\Views\table_lucky.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\table_lucky.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:32:50 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\table_lucky.php on line 22.
+ 1 APPPATH\Views\table_lucky.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\table_lucky.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:35:43 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\table_lucky.php on line 21.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 4 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:52:59 --> Array to string conversion
+in APPPATH\Views\table_lucky.php on line 22.
+ 1 APPPATH\Views\table_lucky.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\table_lucky.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:54:32 --> Array to string conversion
+in APPPATH\Views\table_lucky.php on line 24.
+ 1 APPPATH\Views\table_lucky.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\table_lucky.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:55:13 --> Array to string conversion
+in APPPATH\Views\table_lucky.php on line 20.
+ 1 APPPATH\Views\table_lucky.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\table_lucky.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:55:23 --> Array to string conversion
+in APPPATH\Views\table_lucky.php on line 20.
+ 1 APPPATH\Views\table_lucky.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\table_lucky.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:56:34 --> Undefined variable $relo
+in APPPATH\Views\table_lucky.php on line 22.
+ 1 APPPATH\Views\table_lucky.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $relo', 'APPPATH\\Views\\table_lucky.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:59:11 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Views\table_lucky.php on line 21.
+ 1 APPPATH\Views\table_lucky.php(21): explode(',', [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 15:59:56 --> Array to string conversion
+in APPPATH\Views\table_lucky.php on line 24.
+ 1 APPPATH\Views\table_lucky.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\table_lucky.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 16:10:57 --> Array to string conversion
+in APPPATH\Views\table_lucky.php on line 40.
+ 1 APPPATH\Views\table_lucky.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\table_lucky.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(71): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 16:22:07 --> Undefined variable $result
+in APPPATH\Views\table_lucky.php on line 14.
+ 1 APPPATH\Views\table_lucky.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Views\\table_lucky.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 16:22:53 --> Undefined variable $result
+in APPPATH\Views\table_lucky.php on line 14.
+ 1 APPPATH\Views\table_lucky.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Views\\table_lucky.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 16:23:04 --> Undefined variable $result
+in APPPATH\Views\table_lucky.php on line 14.
+ 1 APPPATH\Views\table_lucky.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Views\\table_lucky.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 16:33:30 --> Array to string conversion
+in APPPATH\Views\table_lucky.php on line 17.
+ 1 APPPATH\Views\table_lucky.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\table_lucky.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 16:36:47 --> Undefined array key "user_logo"
+in APPPATH\Views\table_lucky.php on line 18.
+ 1 APPPATH\Views\table_lucky.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_logo"', 'APPPATH\\Views\\table_lucky.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 16:37:42 --> Array to string conversion
+in APPPATH\Views\table_lucky.php on line 17.
+ 1 APPPATH\Views\table_lucky.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\table_lucky.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 16:38:15 --> Undefined array key "user_logo"
+in APPPATH\Views\table_lucky.php on line 17.
+ 1 APPPATH\Views\table_lucky.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_logo"', 'APPPATH\\Views\\table_lucky.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 16:38:23 --> Undefined array key "username"
+in APPPATH\Views\table_lucky.php on line 17.
+ 1 APPPATH\Views\table_lucky.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\table_lucky.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_lucky.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 5 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 16:38:41 --> syntax error, unexpected token "[", expecting identifier or variable or "{" or "$"
+in APPPATH\Views\table_lucky.php on line 17.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 3 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 16:46:07 --> syntax error, unexpected token "if"
+in APPPATH\Views\table_lucky.php on line 24.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 3 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 16:48:04 --> syntax error, unexpected token "if"
+in APPPATH\Views\table_lucky.php on line 26.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 3 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 16:48:14 --> syntax error, unexpected token "}"
+in APPPATH\Views\table_lucky.php on line 26.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 3 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 17:07:23 --> syntax error, unexpected identifier "background", expecting "," or ";"
+in APPPATH\Views\table_lucky.php on line 25.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 3 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 17:07:31 --> syntax error, unexpected identifier "background", expecting "," or ";"
+in APPPATH\Views\table_lucky.php on line 25.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 3 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 17:09:15 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+in APPPATH\Views\table_lucky.php on line 44.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 3 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 17:09:21 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+in APPPATH\Views\table_lucky.php on line 44.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_lucky', [], true)
+ 3 APPPATH\Controllers\Service.php(75): view('table_lucky', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->api_list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
