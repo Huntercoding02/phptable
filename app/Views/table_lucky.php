@@ -63,11 +63,13 @@ function cal($count){
 if($count=='2'){
     return  '5,000';
 }else if($count=='3'){
-    return  '4,000';
-}else if($count=='4'){
     return  '3,000';
+}else if($count=='4'){
+    return  '2,000';
+}else if($count>'4'&& $count<'12'){
+    return  '400';
 }else{
-    return  '500';
+    return  '100';
 }
 }
 function color(){
