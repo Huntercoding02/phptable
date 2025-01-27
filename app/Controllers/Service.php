@@ -73,8 +73,131 @@ class Service extends BaseController
         // exit;
         $total1['send_data_to_view_arr'] = $total;
         return view('table_lucky',$total1);
+        
     }
-    
+    public function th(){
+        $date_current = date('Y-m-d H:i:s');
+        $token = md5($date_current.'myapiss5');
+        $url = "https://takeme.la/tikky_training/tikky_api";
+        $info = array(
+            'd' => $date_current,
+            'token' => $token
+
+        );
+        $body = $info;
+       
+        $res =$this->curl->post($url,$body);
+
+        $us = json_encode($res, true);
+        // $user_name = $us['more_data'][0]['user_name'];
+
+        // print_r($user_name) ;
+        // foreach ($res as  $y) {
+        //     echo " $y <br>";
+        //   }
+        //   echo $res;
+        // echo();
+        // var_dump($res);
+        $dat = $res->body;
+        $datt = json_decode($dat, true);
+        // print_r($datt);
+        // echo $datt['more_data'][5]['user_logo'];
+        // echo $datt['more_data'][5]['user_id'];
+        // echo count($datt['more_data']);
+        $real="";
+        $logo="";
+        $id="";
+        $total=[];
+        for($i=0;$i<15;$i++){
+             $real.= $datt['more_data'][$i]['user_name'].'<br>';
+        }
+        for($i=0;$i<15;$i++){
+            $logo.= $datt['more_data'][$i]['user_logo'].'<br>';
+       }
+       for($i=0;$i<15;$i++){
+        $id.= $datt['more_data'][$i]['user_id'].'<br>';
+   }
+    for($i=0;$i<15;$i++){
+        $total[] = [
+            'username'  => $datt['more_data'][$i]['user_name'],
+            'user_logo' => $datt['more_data'][$i]['user_logo'],
+            'user_id'   => $datt['more_data'][$i]['user_id'],
+        ];
+   }
+        // echo $total;
+        // return $real;
+// Access the user_name field
+//         $user_name = $datt['more_data'][0]['user_name'];
+
+// echo $user_name;
+        // echo $dat;
+        // exit;
+        $total1['send_data_to_view_arr'] = $total;
+        
+        return view('th',$total1);
+    }
+
+    public function eng(){
+        $date_current = date('Y-m-d H:i:s');
+        $token = md5($date_current.'myapiss5');
+        $url = "https://takeme.la/tikky_training/tikky_api";
+        $info = array(
+            'd' => $date_current,
+            'token' => $token
+
+        );
+        $body = $info;
+       
+        $res =$this->curl->post($url,$body);
+
+        $us = json_encode($res, true);
+        // $user_name = $us['more_data'][0]['user_name'];
+
+        // print_r($user_name) ;
+        // foreach ($res as  $y) {
+        //     echo " $y <br>";
+        //   }
+        //   echo $res;
+        // echo();
+        // var_dump($res);
+        $dat = $res->body;
+        $datt = json_decode($dat, true);
+        // print_r($datt);
+        // echo $datt['more_data'][5]['user_logo'];
+        // echo $datt['more_data'][5]['user_id'];
+        // echo count($datt['more_data']);
+        $real="";
+        $logo="";
+        $id="";
+        $total=[];
+        for($i=0;$i<15;$i++){
+             $real.= $datt['more_data'][$i]['user_name'].'<br>';
+        }
+        for($i=0;$i<15;$i++){
+            $logo.= $datt['more_data'][$i]['user_logo'].'<br>';
+       }
+       for($i=0;$i<15;$i++){
+        $id.= $datt['more_data'][$i]['user_id'].'<br>';
+   }
+    for($i=0;$i<15;$i++){
+        $total[] = [
+            'username'  => $datt['more_data'][$i]['user_name'],
+            'user_logo' => $datt['more_data'][$i]['user_logo'],
+            'user_id'   => $datt['more_data'][$i]['user_id'],
+        ];
+   }
+        // echo $total;
+        // return $real;
+// Access the user_name field
+//         $user_name = $datt['more_data'][0]['user_name'];
+
+// echo $user_name;
+        // echo $dat;
+        // exit;
+        $total1['send_data_to_view_arr'] = $total;
+        
+        return view('eng',$total1);
+    }
 
     public function register()
     {

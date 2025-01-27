@@ -72,9 +72,7 @@ if($count=='2'){
     return  '100';
 }
 }
-function color(){
-  
-}
+
 ?>
 
     
