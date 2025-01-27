@@ -7,7 +7,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="format-detection" content="telephone=no">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <link rel="stylesheet" href="/asset/sty.css">
 <style>
         table{
@@ -48,16 +48,20 @@
 			
             Ranking<br />
             Host who received most Chinese Dragon<br /><br />
-            Click here for rank preview<br /><br />
-		
+            <button id="myBtn" style="cursor: pointer;
+            background-color:darksalmon;
+            border-radius:10px;
+            width :250px;
+            height:50px;" >Click here for rank preview</button>
+<br /><br />
+
+<div id="rank" style="display: none;">
             <?PHP
+            
 // print_r($send_data_to_view_arr);
 if ($send_data_to_view_arr > 0) {
     $count =1;
-     echo "<table><tr><th>No.</th><th>Detail</th><th>Note</th></tr>";
-   
-
-
+     echo "<table ><tr><th>No.</th><th>Detail</th><th>Note</th></tr>";
      foreach($send_data_to_view_arr as $row){
         $tr_color = "tr_col_1";
         if($count>'3' && $count<'11'){
@@ -94,7 +98,25 @@ if($count=='2'){
 }
 }
 
+
+
 ?>
+</div>
+<script>
+    $(document).ready(function(){
+        $('#myBtn').click(function(){
+            var x = document.getElementById("myBtn");
+            if (x.innerHTML === "Click here for rank preview") {
+            x.innerHTML = "Click here for hide rank preview!";
+            } else {
+            x.innerHTML = "Click here for rank preview";
+            }
+            // let open ="Click here for rank preview";
+            $('#rank').slideToggle(500);
+        })
+    }) 
+
+</script>
             <h class="a1">EVENT DURATION</h>
 			<br />
 			21 JAN 2025 (10.00 AM) – 29 JAN 2025 (10.00 PM) GMT+7

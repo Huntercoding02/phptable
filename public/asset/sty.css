@@ -2,34 +2,34 @@
 /* CSS Document */
 
 @font-face {
-    font-family:'PSL162';
-    src: url('../fonts/PSL162.eot');
-    src: url('../fonts/PSL162.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/PSL162.woff') format('woff'),
-         url('../fonts/PSL162.ttf') format('truetype'),
-         url('../fonts/PSL162.svg#thaisans_neueregular') format('svg');
+    font-family:'fonts/PSL162';
+    src: url('fonts/PSL162.eot');
+    src: url('fonts/PSL162.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PSL162.woff') format('woff'),
+         url('fonts/PSL162.ttf') format('truetype'),
+         url('fonts/PSL162.svg#thaisans_neueregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
 	font-family:'Meiryo UI W53 Regular';
-    src: url('../fonts/Meiryo UI W53 Regular.eot');
-    src: url('../fonts/Meiryo UI W53 Regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Meiryo UI W53 Regular.woff') format('woff'),
-         url('../fonts/Meiryo UI W53 Regular.ttf') format('truetype'),
-         url('../fonts/Meiryo UI W53 Regular.svg#thaisans_neueregular') format('svg');
+    src: url('fonts/Meiryo UI W53 Regular.eot');
+    src: url('fonts/Meiryo UI W53 Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Meiryo UI W53 Regular.woff') format('woff'),
+         url('fonts/Meiryo UI W53 Regular.ttf') format('truetype'),
+         url('fonts/Meiryo UI W53 Regular.svg#thaisans_neueregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {	
 	font-family:'BeVietnam-Bold';
-    src: url('../fonts/BeVietnam-Bold.eot');
-    src: url('../fonts/BeVietnam-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/BeVietnam-Bold.woff') format('woff'),
-         url('../fonts/BeVietnam-Bold.ttf') format('truetype'),
-         url('../fonts/BeVietnam-Bold.svg#thaisans_neueregular') format('svg');
+    src: url('fonts/BeVietnam-Bold.eot');
+    src: url('fonts/BeVietnam-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BeVietnam-Bold.woff') format('woff'),
+         url('fonts/BeVietnam-Bold.ttf') format('truetype'),
+         url('fonts/BeVietnam-Bold.svg#thaisans_neueregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -42,8 +42,8 @@ body{
 	background:url("picture/bg1.jpg") no-repeat center top fixed #fff;
 }
 
-h.a1{font-size:44px; color:#ffea00; font-weight:700; text-decoration: underline; text-decoration-style:wavy;  font-family: 'PSL162'; }/* topic 01 */
-h.a2{font-size:34px; color:#ffea00; font-family: 'PSL162'; }/* topic 02 */
+h.a1{font-size:44px; color:#ffea00; font-weight:700; text-decoration: underline; text-decoration-style:wavy;  font-family: 'fonts/PSL162'; }/* topic 01 */
+h.a2{font-size:34px; color:#ffea00; font-family: 'fonts/PSL162'; }/* topic 02 */
 h.a1jp, h.a1vn{font-size:30px; color:#ffea00; font-weight:700; text-decoration: underline; text-decoration-style:wavy;  }/* topic 01 */
 h.a2jp, h.a2vn{font-size:22px; color:#ffea00; font-weight:600; }/* topic 02 */
 

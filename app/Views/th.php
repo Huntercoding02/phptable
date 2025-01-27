@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <title>TakeMe</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,10 +49,17 @@
             อันดับ<br />
             วีเจที่ได้รับ Chinese Dragon มากที่สุด<br /><br />
 			
-			ปุ่ม กดดูอันดับ เพิ่มเติม <br /><br />
-            
+            <button id="myBtn" style="cursor: pointer;
+            background-color:darksalmon;
+            border-radius:10px;
+            width :250px;
+            height:50px;" >ปุ่ม กดดูอันดับ เพิ่มเติม</button>
+			 <br /><br />
+
+             <div id="rank" style="display: none;">
             <?PHP
-// print_r($send_data_to_view_arr);
+
+
 if ($send_data_to_view_arr > 0) {
     $count =1;
      echo "<table><tr><th>อันดับ</th><th>รายชื่อ</th><th>รางวัล</th></tr>";
@@ -95,6 +103,22 @@ if($count=='2'){
 }
 
 ?>
+</div>
+<script>
+    $(document).ready(function(){
+        $('#myBtn').click(function(){
+            var x = document.getElementById("myBtn");
+            if (x.innerHTML === "ปุ่ม กดดูอันดับ เพิ่มเติม") {
+            x.innerHTML = "ปุ่ม กดซ้อนอันดับ";
+            } else {
+            x.innerHTML = "ปุ่ม กดดูอันดับ เพิ่มเติม";
+            }
+            // let open ="Click here for rank preview";
+            $('#rank').slideToggle(500);
+        })
+    }) 
+
+</script>
 			<h class="a1">ระยะเวลากิจกรรม</h>
             <br />
             21 มกราคม 2568 (10.00 น.) – 29 มกราคม 2568 (22.00 น.)

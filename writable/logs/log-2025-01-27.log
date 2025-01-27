@@ -1,0 +1,100 @@
+CRITICAL - 2025-01-27 10:29:37 --> Call to undefined function toggleTable()
+in APPPATH\Views\eng.php on line 58.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('eng', [], true)
+ 4 APPPATH\Controllers\Service.php(199): view('eng', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->eng()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-27 10:37:05 --> Undefined variable $value
+in APPPATH\Views\eng.php on line 58.
+ 1 APPPATH\Views\eng.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\eng.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\eng.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('eng', [], true)
+ 5 APPPATH\Controllers\Service.php(199): view('eng', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->eng()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-27 10:37:27 --> Undefined variable $value
+in APPPATH\Views\eng.php on line 58.
+ 1 APPPATH\Views\eng.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\eng.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\eng.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('eng', [], true)
+ 5 APPPATH\Controllers\Service.php(199): view('eng', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->eng()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-27 10:37:45 --> Undefined variable $value
+in APPPATH\Views\eng.php on line 58.
+ 1 APPPATH\Views\eng.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\eng.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\eng.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('eng', [], true)
+ 5 APPPATH\Controllers\Service.php(199): view('eng', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->eng()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-27 10:39:13 --> Undefined variable $value
+in APPPATH\Views\eng.php on line 58.
+ 1 APPPATH\Views\eng.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\eng.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\eng.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('eng', [], true)
+ 5 APPPATH\Controllers\Service.php(199): view('eng', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->eng()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-27 10:39:14 --> Undefined variable $value
+in APPPATH\Views\eng.php on line 58.
+ 1 APPPATH\Views\eng.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\eng.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\eng.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('eng', [], true)
+ 5 APPPATH\Controllers\Service.php(199): view('eng', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->eng()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-27 10:54:08 --> Too few arguments to function toggle(), 0 passed in C:\xampp\htdocs\ci4_ss5\app\Views\eng.php on line 60 and exactly 1 expected
+in APPPATH\Views\eng.php on line 97.
+ 1 APPPATH\Views\eng.php(60): toggle()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\eng.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('eng', [], true)
+ 5 APPPATH\Controllers\Service.php(199): view('eng', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->eng()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-27 10:07:29 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Service.php on line 438.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/register')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/register')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/register')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-27 10:07:33 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Service.php on line 438.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/register')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/register')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/register')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-27 10:07:34 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Service.php on line 438.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/register')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/register')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/register')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
