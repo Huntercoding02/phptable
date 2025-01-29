@@ -206,6 +206,7 @@ class Service extends BaseController
     {
         return view('table');
     }
+   
     public function process_register()
     {
 
@@ -217,10 +218,21 @@ class Service extends BaseController
         $email = "";
         $cid = "";
         $phonenumber = "";
-        $address = "";
-      
-        
-
+        $address = ""; 
+        // $province_id = "";
+        $province_id = $this->request->getPost('province_id');
+        // $districts = "";
+        $districts=$this->request->getPost('districts');
+        // $subdistricts = "";
+        $subdistricts = $this->request->getPost('subdistricts');
+        // echo '<br>';
+        // echo $province_id;
+        // echo '<br>';
+        // echo $districts;
+        // echo '<br>';
+        // echo $subdistricts;
+        // echo '<br>';
+        // exit;
             if (isset($_POST['username']) && $_POST['username'] != '') {
                 $username = $_POST['username'];
             }
@@ -423,8 +435,8 @@ class Service extends BaseController
 
 
         $sql_ins = "INSERT INTO user_info
-        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`, `phone_number`) 
-        VALUES ('" . $username . "', '" . $password . "', '" . $cid . "', '" . $email . "', '" . $name . "', '" . $surname . "',' " . $address . "', '" . $phonenumber . "');
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`) 
+        VALUES ('" . $username . "', '" . $password . "', '" . $cid . "', '" . $email . "', '" . $name . "', '" . $surname . "',' " . $address . "','".$province_id."','".$districts."', '".$subdistricts."', '" . $phonenumber . "');
         ";
 
         // $result_insert = mysqli_query($conn,$sql);
@@ -585,46 +597,16 @@ class Service extends BaseController
             exit;
         }
 
-
-
-
-        //   echo '<pre>';
-        //   if($rs[0]->username){
-        //     echo 'username duplicate';
-        //     echo $username;
-        //   }else if($rs[0]->citizin_id){
-        //     echo 'citizin_id duplicate';
-        //   }else{
-        //     echo 'email duplicate';
-        //   }
-
-
-
-
-
         echo "<hr>";
         $insert = "INSERT INTO user_info (username, password, citizin_id, email, name, surname, address, phone_number) VALUES ('testname123', 'Password01!', '7894561231233', 'kun@hot.lon', 'Hi', 'LO', 'gg', '02')";
 
         $execute = $this->Mydev_model->execute($sql_insert);
 
 
-
-
-
         if ($execute) {
             $response = array('ret_code' => '101', 'msg' => "insert Success");
             echo json_encode($response);
         }
-        // var_dump($execute);
-        // print_r($rs);
-        // if(count($rs)>0){
-        //     for($i=0;$i<count($rs);$i++){
-        //         echo $rs[$i]->username;
-        //         echo '<br>';
-        //         echo $rs[$i]->citizin_id;
-        //         echo '<hr>';
-        //     }
-        // }
 
     }
     public function get_client_ip()
@@ -646,9 +628,98 @@ class Service extends BaseController
             $ipaddress = 'UNKNOWN';
         return $ipaddress;
     }
+    public function show(){
+// // echo date('Y-m-d H:i:s');
+// include_once('../day7/include/WebConfig.php');
+// $web = new mysql_class();
+// $web->Connect2Web();
+if (isset($_POST['button_del'])) {
 
-    
+    $var = $_POST['id_show'];
+    if (isset($var)) {
+        $del_sql = "DELETE FROM user_info WHERE id = $var";
 
+
+        $return = $this->Mydev_model->execute($del_sql);
+        if ($return) {
+            echo '<script>
+        window.location.href ="table_show.php"
+        </script>';
+        } else {
+            echo 'Can not delete data';
+        }
+
+        // $result = mysqli_query($conn,$del_sql);
+        //     print_r($del_sql);
+        // echo '<script>
+        // window.location.href ="table_show.php"
+        // </script>';
+
+    }
+}
+
+if (isset($_POST['button_up'])) {
+    // print_r($_POST['phonenumber']);
+    // print_r($_POST['id_show']);
+    $phone = $_POST['phonenumber'];
+    $var = $_POST['id_show'];
+    if (isset($var)) {
+        $up_sql = "UPDATE user_info 
+            SET phone_number = '$phone'
+            WHERE id = $var";
+
+        $return = $this->Mydev_model->execute($up_sql);
+        if ($return) {
+            echo '<script>
+window.location.href ="table_show.php"
+</script>';
+        } else {
+            echo 'Can not update data';
+        }
+        // $result = mysqli_query($conn, $up_sql);
+        // print_r($up_sql);
+        // echo '<script>
+        // window.location.href ="table_show.php"
+        // </script>';
+    }
+}
+
+
+// $sql = "SELECT * FROM user_info;";
+// $result = mysqli_query($conn,$sql);
+// $sql_id= "
+// SELECT a.name_in_thai AS จังหวัด, b.name_in_thai AS เขตอำเภอ , c.name_in_thai AS แขวงตำบล FROM provinces AS a
+// LEFT JOIN districts AS b
+// ON a.id = b.province_id
+// LEFT JOIN subdistricts AS c
+// ON  b.id = c.district_id
+// WHERE  a.id  ='{$id}' OR b.province_id='{$province_id}' OR c.district_id='{$district_id}';
+
+
+// ";
+// $res_id = $this->Mydev_model->select($sql_id);
+
+
+$sql = "SELECT user_info.*,a.name_in_thai AS province,b.name_in_thai AS distric,c.name_in_thai AS subdistric FROM user_info 
+LEFT JOIN provinces as a
+ON user_info.provinces_id = a.id
+LEFT JOIN districts AS b
+ON user_info.districts_id = b.id
+LEFT JOIN subdistricts AS c
+ON  user_info.subdistricts_id = c.id
+ORDER BY user_info.createtime DESC";
+// $result = mysqli_query($conn, $sql);
+$array_result = $this->Mydev_model->select($sql);
+echo '<pre>';
+// print_r($array_result);
+$total1['array_result'] = $array_result;
+return view ('show',$total1);
+
+    }
+    public function province()
+    {
+
+    }
     public function write_log($log)
     {
         //Something to write to txt log
@@ -714,23 +785,6 @@ class Service extends BaseController
             exit;
         }
 
-
-
-        // $conn = mysqli_connect( $servername, $username, $password );
-        // mysqli_select_db($conn,$dbname);
-
-        // // Check connection
-        // if ($conn->errno) {
-        //     $response = array('ret'=>'401','msg'=>"Connection failed: " . $conn->connect_error);
-        //         echo json_encode($response);
-        //         // write_log(json_encode($response));
-        //         exit;
-        // }
-
-        // @mysqli_query($conn,"set character_set_results=utf8mb4");
-        // @mysqli_query($conn,"set character_set_client=utf8mb4");
-        // @mysqli_query($conn,"set character_set_connection=utf8mb4");
-
         $password_user = md5($password_user);
 
         $sql_username = "SELECT username,PASSWORD,status FROM user_info WHERE username ='" . $username_user . "' AND PASSWORD = '" . $password_user . "' ";
@@ -774,7 +828,14 @@ class Service extends BaseController
     }
     public function selectzip(){
         $zipcode = $this->request->getPost('zipcode');
-        $sql_zip = "SELECT a.name_in_thai AS province, b.name_in_thai AS districts , c.name_in_thai AS subdistricts, a.id as province_id, b.id as district_id, c.id as subdistrict_id FROM provinces AS a
+        $sql_zip = "SELECT 
+        a.name_in_thai AS province, 
+        b.name_in_thai AS districts , 
+        c.name_in_thai AS subdistricts, 
+        a.id as province_id, 
+        b.id as district_id, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
         LEFT JOIN districts AS b
         ON a.id = b.province_id
         LEFT JOIN subdistricts AS c
@@ -784,12 +845,55 @@ class Service extends BaseController
         // print_r($zip);
         $province = array();
         $district = array();
-        $sub_district = array();
+        // $sub_district = array();
+        // for($i=0;$i<count($zip);$i++){
+        //     $province[] =[
+        //         'id' => $zip[$i]->province_id,
+        //         'name' => $zip[$i]->province
+        //     ];
+        //     $district[] =[
+        //         'id' => $zip[$i]->district_id,
+        //         'districtsname' => $zip[$i]->districts
+        //     ];
+        //     // $sub_district[] =[
+        //     //     'id' => $zip[$i]->subdistrict_id,
+        //     //     'subdistrictsname' => $zip[$i]->subdistricts
+        //     // ];
+        // }
         for($i=0;$i<count($zip);$i++){
             $province[$zip[$i]->province_id] = $zip[$i]->province;
+            $district[$zip[$i]->district_id] = $zip[$i]->districts;
+           
         }
-        $response = array('ret'=>'101','province'=>$province);
+
+        $response = array('ret'=>'101','province'=>$province,'district'=>$district);
         echo json_encode($response);
+        $this->write_log(json_encode($response));
+            // exit;
+    }
+   
+    public function selectdistric(){
+        $district = $this->request->getPost('district');
+        $sql_dis = 
+        "SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE c.district_id='" . $district . "';";
+        $zip = $this->Mydev_model->select($sql_dis);
+        $sub_district = array();
+        for($i=0;$i<count($zip);$i++){
+           $sub_district[$zip[$i]->subdistrict_id] = $zip[$i]->subdistricts;
+        }
+        
+        $response = array('ret'=>'101','sub_district'=>$sub_district);
+        echo json_encode($response);
+        $this->write_log(json_encode($response));
+        //     exit;
     }
     public function logout_form()
     {

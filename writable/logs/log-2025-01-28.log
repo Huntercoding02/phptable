@@ -1,0 +1,1474 @@
+CRITICAL - 2025-01-28 08:49:32 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 08:50:24 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 08:50:24 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 08:51:03 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 08:55:38 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 08:57:11 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 08:59:33 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:08:20 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:08:30 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:08:35 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:08:41 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:10:26 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:10:30 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:10:55 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:11:04 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:11:07 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:11:18 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:11:21 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:11:35 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:11:43 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:13:13 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:13:16 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:13:21 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:13:35 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:13:36 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:14:09 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:14:11 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:14:15 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:14:22 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 793.
+ 1 APPPATH\Controllers\Service.php(793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:22:23 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 795.
+ 1 APPPATH\Controllers\Service.php(795): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 795)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:23:12 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:23:16 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:23:35 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:24:32 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 794.
+ 1 APPPATH\Controllers\Service.php(794): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 794)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:24:35 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 794.
+ 1 APPPATH\Controllers\Service.php(794): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 794)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:24:40 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 794.
+ 1 APPPATH\Controllers\Service.php(794): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 794)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:28:46 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:32:50 --> Undefined property: stdClass::$district
+in APPPATH\Controllers\Service.php on line 790.
+ 1 APPPATH\Controllers\Service.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$district', 'APPPATH\\Controllers\\Service.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 11:55:10 --> Undefined variable $sub_district
+in APPPATH\Controllers\Service.php on line 815.
+ 1 APPPATH\Controllers\Service.php(815): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_district', 'APPPATH\\Controllers\\Service.php', 815)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 11:55:15 --> Undefined variable $sub_district
+in APPPATH\Controllers\Service.php on line 815.
+ 1 APPPATH\Controllers\Service.php(815): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_district', 'APPPATH\\Controllers\\Service.php', 815)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectzip()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 13:40:30 --> mysqli_sql_exception: Unknown column 'b.district_id' in 'where clause' in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(832): App\Models\Mydev_model->select('SELECT \r\n      ...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 13:40:30 --> Unknown column 'b.district_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'24\';')
+ 2 APPPATH\Controllers\Service.php(832): App\Models\Mydev_model->select('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'24\';')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 13:41:04 --> mysqli_sql_exception: Unknown column 'b.district_id' in 'where clause' in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(832): App\Models\Mydev_model->select('SELECT \r\n      ...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 13:41:04 --> Unknown column 'b.district_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'24\';')
+ 2 APPPATH\Controllers\Service.php(832): App\Models\Mydev_model->select('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'24\';')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 13:41:49 --> mysqli_sql_exception: Unknown column 'b.district_id' in 'where clause' in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(832): App\Models\Mydev_model->select('SELECT \r\n      ...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 13:41:49 --> Unknown column 'b.district_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 2 APPPATH\Controllers\Service.php(832): App\Models\Mydev_model->select('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 13:42:01 --> mysqli_sql_exception: Unknown column 'b.district_id' in 'where clause' in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(832): App\Models\Mydev_model->select('SELECT \r\n      ...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 13:42:01 --> Unknown column 'b.district_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 2 APPPATH\Controllers\Service.php(832): App\Models\Mydev_model->select('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 13:42:02 --> mysqli_sql_exception: Unknown column 'b.district_id' in 'where clause' in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(832): App\Models\Mydev_model->select('SELECT \r\n      ...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 13:42:02 --> Unknown column 'b.district_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 2 APPPATH\Controllers\Service.php(832): App\Models\Mydev_model->select('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 13:42:03 --> mysqli_sql_exception: Unknown column 'b.district_id' in 'where clause' in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(832): App\Models\Mydev_model->select('SELECT \r\n      ...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 13:42:03 --> Unknown column 'b.district_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 2 APPPATH\Controllers\Service.php(832): App\Models\Mydev_model->select('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 13:43:28 --> mysqli_sql_exception: Unknown column 'b.district_id' in 'where clause' in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(832): App\Models\Mydev_model->select('SELECT \r\n      ...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 13:43:28 --> Unknown column 'b.district_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 2 APPPATH\Controllers\Service.php(832): App\Models\Mydev_model->select('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 13:46:09 --> mysqli_sql_exception: Unknown column 'b.district_id' in 'where clause' in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(833): App\Models\Mydev_model->select('SELECT \r\n      ...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 13:46:09 --> Unknown column 'b.district_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 2 APPPATH\Controllers\Service.php(833): App\Models\Mydev_model->select('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 13:46:23 --> mysqli_sql_exception: Unknown column 'b.district_id' in 'where clause' in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(833): App\Models\Mydev_model->select('SELECT \r\n      ...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 13:46:23 --> Unknown column 'b.district_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'24\';')
+ 2 APPPATH\Controllers\Service.php(833): App\Models\Mydev_model->select('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'24\';')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 13:47:59 --> mysqli_sql_exception: Unknown column 'b.district_id' in 'where clause' in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(833): App\Models\Mydev_model->select('SELECT \r\n      ...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 13:47:59 --> Unknown column 'b.district_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 2 APPPATH\Controllers\Service.php(833): App\Models\Mydev_model->select('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 13:47:59 --> mysqli_sql_exception: Unknown column 'b.district_id' in 'where clause' in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(833): App\Models\Mydev_model->select('SELECT \r\n      ...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 13:47:59 --> Unknown column 'b.district_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 2 APPPATH\Controllers\Service.php(833): App\Models\Mydev_model->select('SELECT 
+        c.name_in_thai AS subdistricts, 
+        c.id as subdistrict_id 
+        FROM provinces AS a
+        LEFT JOIN districts AS b
+        ON a.id = b.province_id
+        LEFT JOIN subdistricts AS c
+        ON  b.id = c.district_id
+        WHERE b.district_id=\'\';')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->selectdistric()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 14:20:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('hussnter01', 'a332233d395c415a99c6b16a2348c129', '248756...' at line 2 in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO use...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(428): App\Models\Mydev_model->execute('INSERT INTO use...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->process_register()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 14:20:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('hussnter01', 'a332233d395c415a99c6b16a2348c129', '248756...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'hussnter01\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \',\'\',\'\', \'\',\'\');
+        ')
+ 2 APPPATH\Controllers\Service.php(428): App\Models\Mydev_model->execute('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'hussnter01\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \',\'\',\'\', \'\',\'\');
+        ')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 14:20:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('husssnter01', 'a332233d395c415a99c6b16a2348c129', '24875...' at line 2 in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO use...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(428): App\Models\Mydev_model->execute('INSERT INTO use...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->process_register()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 14:20:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('husssnter01', 'a332233d395c415a99c6b16a2348c129', '24875...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'husssnter01\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \',\'\',\'\', \'\',\'\');
+        ')
+ 2 APPPATH\Controllers\Service.php(428): App\Models\Mydev_model->execute('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'husssnter01\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \',\'\',\'\', \'\',\'\');
+        ')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 14:21:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('hunter000', 'a332233d395c415a99c6b16a2348c129', '2487569...' at line 2 in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO use...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(428): App\Models\Mydev_model->execute('INSERT INTO use...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->process_register()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 14:21:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('hunter000', 'a332233d395c415a99c6b16a2348c129', '2487569...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'hunter000\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \',\'\',\'\', \'\',\'\');
+        ')
+ 2 APPPATH\Controllers\Service.php(428): App\Models\Mydev_model->execute('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'hunter000\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \',\'\',\'\', \'\',\'\');
+        ')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 14:21:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('hunter000', 'a332233d395c415a99c6b16a2348c129', '2487569...' at line 2 in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO use...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(428): App\Models\Mydev_model->execute('INSERT INTO use...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->process_register()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 14:21:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('hunter000', 'a332233d395c415a99c6b16a2348c129', '2487569...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'hunter000\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \',\'\',\'\', \'\',\'\');
+        ')
+ 2 APPPATH\Controllers\Service.php(428): App\Models\Mydev_model->execute('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'hunter000\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \',\'\',\'\', \'\',\'\');
+        ')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 14:23:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('hunter000d', 'a332233d395c415a99c6b16a2348c129', '248756...' at line 2 in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO use...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(428): App\Models\Mydev_model->execute('INSERT INTO use...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->process_register()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 14:23:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('hunter000d', 'a332233d395c415a99c6b16a2348c129', '248756...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'hunter000d\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \',\'\',\'\', \'\',\'\');
+        ')
+ 2 APPPATH\Controllers\Service.php(428): App\Models\Mydev_model->execute('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'hunter000d\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \',\'\',\'\', \'\',\'\');
+        ')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 14:23:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('hunter000d', 'a332233d395c415a99c6b16a2348c129', '248756...' at line 2 in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO use...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(428): App\Models\Mydev_model->execute('INSERT INTO use...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->process_register()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 14:23:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('hunter000d', 'a332233d395c415a99c6b16a2348c129', '248756...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'hunter000d\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \',\'\',\'\', \'\',\'\');
+        ')
+ 2 APPPATH\Controllers\Service.php(428): App\Models\Mydev_model->execute('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'hunter000d\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \',\'\',\'\', \'\',\'\');
+        ')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 14:23:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('hunter000d', 'a332233d395c415a99c6b16a2348c129', '248756...' at line 2 in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO use...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(428): App\Models\Mydev_model->execute('INSERT INTO use...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->process_register()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 14:23:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('hunter000d', 'a332233d395c415a99c6b16a2348c129', '248756...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'hunter000d\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \',\'\',\'\', \'\',\'\');
+        ')
+ 2 APPPATH\Controllers\Service.php(428): App\Models\Mydev_model->execute('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'hunter000d\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \',\'\',\'\', \'\',\'\');
+        ')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 14:24:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('hunter000d', 'a332233d395c415a99c6b16a2348c129', '248756...' at line 2 in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO use...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(433): App\Models\Mydev_model->execute('INSERT INTO use...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->process_register()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 14:24:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') 
+        VALUES ('hunter000d', 'a332233d395c415a99c6b16a2348c129', '248756...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'hunter000d\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \', \'\');
+        ')
+ 2 APPPATH\Controllers\Service.php(433): App\Models\Mydev_model->execute('INSERT INTO user_info
+        (`username`, `password`, `citizin_id`, `email`, `name`, `surname`, `address`,`provinces_id`,`districts_id`,`subdistricts_id`, `phone_number`,) 
+        VALUES (\'hunter000d\', \'a332233d395c415a99c6b16a2348c129\', \'2487569451234\', \'hunyuos@til.lon\', \'hg\', \'df\',\' \', \'\');
+        ')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:03:27 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:03:46 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:15:10 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:16:49 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:16:49 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:17:53 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:19:15 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:21:50 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:21:51 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:32:14 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:33:05 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:33:15 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:34:22 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:34:24 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:37:11 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:37:15 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:38:35 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:39:38 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:39:55 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:40:05 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:40:06 --> Undefined variable $province_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $province_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:43:15 --> Undefined variable $district_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $district_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:43:18 --> Undefined variable $district_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $district_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:43:57 --> Undefined variable $district_id
+in APPPATH\Controllers\Service.php on line 435.
+ 1 APPPATH\Controllers\Service.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $district_id', 'APPPATH\\Controllers\\Service.php', 435)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:55:38 --> Undefined variable $district_id
+in APPPATH\Controllers\Service.php on line 438.
+ 1 APPPATH\Controllers\Service.php(438): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $district_id', 'APPPATH\\Controllers\\Service.php', 438)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 15:56:00 --> Undefined variable $district_id
+in APPPATH\Controllers\Service.php on line 438.
+ 1 APPPATH\Controllers\Service.php(438): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $district_id', 'APPPATH\\Controllers\\Service.php', 438)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process_register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:10:03 --> Undefined property: CodeIgniter\View\View::$Mydev_model
+in APPPATH\Views\table_show.php on line 98.
+ 1 APPPATH\Views\table_show.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$Mydev_model', 'APPPATH\\Views\\table_show.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_show', [], true)
+ 5 APPPATH\Controllers\Service.php(211): view('table_show')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:11:36 --> Undefined property: CodeIgniter\View\View::$Mydev_model
+in APPPATH\Views\table_show.php on line 99.
+ 1 APPPATH\Views\table_show.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$Mydev_model', 'APPPATH\\Views\\table_show.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_show', [], true)
+ 5 APPPATH\Controllers\Service.php(211): view('table_show')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:11:55 --> Undefined property: CodeIgniter\View\View::$Mydev_model
+in APPPATH\Views\table_show.php on line 99.
+ 1 APPPATH\Views\table_show.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$Mydev_model', 'APPPATH\\Views\\table_show.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\table_show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_show', [], true)
+ 5 APPPATH\Controllers\Service.php(211): view('table_show')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:14:23 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\table_show.php on line 40.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('table_show', [], true)
+ 4 APPPATH\Controllers\Service.php(338): view('table_show')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:18:01 --> include_once(../day7/include/WebConfig.php): Failed to open stream: No such file or directory
+in APPPATH\Views\show.php on line 3.
+ 1 APPPATH\Views\show.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(../day7/include/WebConfig.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\show.php', 3)
+ 2 APPPATH\Views\show.php(3): include_once()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 6 APPPATH\Controllers\Service.php(211): view('show')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:18:25 --> Undefined variable $web
+in APPPATH\Views\show.php on line 97.
+ 1 APPPATH\Views\show.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $web', 'APPPATH\\Views\\show.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Service.php(211): view('show')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:19:06 --> Undefined property: CodeIgniter\View\View::$Mydev_model
+in APPPATH\Views\show.php on line 98.
+ 1 APPPATH\Views\show.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$Mydev_model', 'APPPATH\\Views\\show.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Service.php(211): view('show')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:19:33 --> Undefined property: CodeIgniter\View\View::$Mydev_model
+in APPPATH\Views\show.php on line 98.
+ 1 APPPATH\Views\show.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$Mydev_model', 'APPPATH\\Views\\show.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Service.php(211): view('show')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:20:46 --> Undefined property: CodeIgniter\View\View::$Mydev_model
+in APPPATH\Views\show.php on line 98.
+ 1 APPPATH\Views\show.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$Mydev_model', 'APPPATH\\Views\\show.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Service.php(337): view('show')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:20:51 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\show.php on line 40.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 4 APPPATH\Controllers\Service.php(337): view('show')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:21:25 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php on line 337
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Service.php(337): view('show', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:22:29 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php on line 337
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Service.php(337): view('show', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:22:30 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php on line 337
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Service.php(337): view('show', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:25:14 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in C:\xampp\htdocs\ci4_ss5\app\Controllers\Table.php on line 146
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Table.php(146): view('show', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Table->show()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:27:12 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in C:\xampp\htdocs\ci4_ss5\app\Controllers\Table.php on line 146
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Table.php(146): view('show', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Table->show()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:29:09 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\show.php on line 165.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 4 APPPATH\Controllers\Table.php(146): view('show')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Table->show()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 09:47:09 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Service.php on line 722.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/show')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/show')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/show')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:47:16 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\show.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 4 APPPATH\Controllers\Service.php(695): view('show')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:49:02 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\show.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 4 APPPATH\Controllers\Service.php(696): view('show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:49:08 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\show.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 4 APPPATH\Controllers\Service.php(696): view('show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:49:09 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\show.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 4 APPPATH\Controllers\Service.php(696): view('show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:49:23 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\show.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 4 APPPATH\Controllers\Service.php(695): view('show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:49:38 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\show.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 4 APPPATH\Controllers\Service.php(695): view('show')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:50:00 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php on line 695
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Service.php(695): view('show', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:56:56 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\show.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 4 APPPATH\Controllers\Service.php(695): view('show')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:57:32 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\show.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 4 APPPATH\Controllers\Service.php(695): view('show')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:57:33 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\show.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 4 APPPATH\Controllers\Service.php(695): view('show')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:57:33 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\show.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 4 APPPATH\Controllers\Service.php(695): view('show')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:57:59 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\show.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 4 APPPATH\Controllers\Service.php(695): view('show')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:58:30 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\show.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 4 APPPATH\Controllers\Service.php(695): view('show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 16:59:30 --> Undefined variable $array_result
+in APPPATH\Views\show.php on line 38.
+ 1 APPPATH\Views\show.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array_result', 'APPPATH\\Views\\show.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Service.php(695): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 17:02:11 --> Undefined variable $send_data_to_view_arr
+in APPPATH\Views\show.php on line 38.
+ 1 APPPATH\Views\show.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $send_data_to_view_arr', 'APPPATH\\Views\\show.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Service.php(696): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 17:38:23 --> Undefined variable $sql_id
+in APPPATH\Controllers\Service.php on line 700.
+ 1 APPPATH\Controllers\Service.php(700): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sql_id', 'APPPATH\\Controllers\\Service.php', 700)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 17:40:39 --> syntax error, unexpected token ".", expecting identifier or variable or "{" or "$"
+in APPPATH\Views\show.php on line 86.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 3 APPPATH\Controllers\Service.php(716): view('show', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 17:41:03 --> syntax error, unexpected token ".", expecting identifier or variable or "{" or "$"
+in APPPATH\Views\show.php on line 85.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 3 APPPATH\Controllers\Service.php(716): view('show', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 17:45:50 --> Undefined property: stdClass::$province
+in APPPATH\Views\show.php on line 84.
+ 1 APPPATH\Views\show.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$province', 'APPPATH\\Views\\show.php', 84)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Service.php(716): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 17:47:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 8 in C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT user_inf...', 0)
+#1 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT user_inf...')
+#2 C:\xampp\htdocs\ci4_ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT user_inf...')
+#3 C:\xampp\htdocs\ci4_ss5\app\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT user_inf...')
+#4 C:\xampp\htdocs\ci4_ss5\app\Controllers\Service.php(712): App\Models\Mydev_model->select('SELECT user_inf...')
+#5 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(934): App\Controllers\Service->show()
+#6 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\ci4_ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_ss5\public\index.php(72): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 17:47:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 8
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT user_info.*,a.name_in_thai AS province,b.name_in_thai AS distric,c.name_in_thai AS subdistric FROM user_info 
+LEFT JOIN provinces as a
+ON user_info.provinces_id = a.id
+LEFT JOIN districts AS b
+ON user_info.districts_id = b.id
+LEFT JOIN subdistricts AS c
+ON  user_info.subdistricts_id = c.id
+ORDER BY')
+ 2 APPPATH\Controllers\Service.php(712): App\Models\Mydev_model->select('SELECT user_info.*,a.name_in_thai AS province,b.name_in_thai AS distric,c.name_in_thai AS subdistric FROM user_info 
+LEFT JOIN provinces as a
+ON user_info.provinces_id = a.id
+LEFT JOIN districts AS b
+ON user_info.districts_id = b.id
+LEFT JOIN subdistricts AS c
+ON  user_info.subdistricts_id = c.id
+ORDER BY')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 17:48:53 --> Undefined property: stdClass::$distric
+in APPPATH\Views\show.php on line 85.
+ 1 APPPATH\Views\show.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$distric', 'APPPATH\\Views\\show.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Service.php(721): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(72): CodeIgniter\CodeIgniter->run()

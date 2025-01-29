@@ -75,7 +75,7 @@
                     Citizin ID :
                 </td>
                 <td class="table_data">
-                    <input placeholder="Enter Your Citizin ID" type="number" name="cid" id="cid">
+                    <input placeholder="Enter Your Citizin ID" type="number" name="cid" id="cid" pattern="\d*" maxlength="13">
                     <span style="color: red;">*</span></th>
                 </td>
 
@@ -98,12 +98,12 @@
                 </td>
             </tr>
             <tr>
-                <td class="table_data2" >
+                <td class="table_data2">
                     Zipcode :
                 </td>
                 </td>
                 <td class="table_data">
-                    <input placeholder="Enter Your zip code" type="text" pattern="\d*" maxlength="5" name="zipcode" id="zipcode" >
+                    <input placeholder="Enter Your zip code" type="text" pattern="\d*" maxlength="5" name="zipcode" id="zipcode">
                     <span style="color: red;">*</span></th>
                 </td>
                 <td>
@@ -115,7 +115,7 @@
                     Province :
                 </td>
                 <td class="table_data">
-                
+
                     <select name="province" id="province">
                         <option value=" ">Province</option>
                     </select>
@@ -128,7 +128,7 @@
                     District :
                 </td>
                 <td class="table_data">
-                <select name="district" id="district">
+                    <select name="district" id="district">
                         <option value=" ">District</option>
                     </select>
                     <span style="color: red;">*</span></th>
@@ -140,8 +140,8 @@
                     Sub District :
                 </td>
                 <td class="table_data">
-                    
-                <select name="subdistrict" id="subdistrict">
+
+                    <select name="subdistricts" id="subdistricts">
                         <option value=" ">Sub District</option>
                     </select>
                     <span style="color: red;">*</span></th>
@@ -167,64 +167,92 @@
         </table>
     </div>
     <script>
-//         function check() {
-//   let x = document.getElementById("zipcode");
-//   if(x.value.length == 5){
-//     console.log("fin");
-//   }
+        //         function check() {
+        //   let x = document.getElementById("zipcode");
+        //   if(x.value.length == 5){
+        //     console.log("fin");
+        //   }
 
-            
-// }
+
+        // }
         $(document).ready(function() {
             console.log("ready!");
-            $("#zipcode").keyup(function(){
-                
-                let zipcode =$("#zipcode").val()
-                if(zipcode.length!= 5){
+            $("#zipcode").keyup(function() {
+
+                let zipcode = $("#zipcode").val()
+                if (zipcode.length != 5) {
                     return false
                 }
-            
-                let dataString = 
-                'zipcode='+zipcode
-                console.log(dataString);
-                
-                    $.ajax({
+
+                let dataString =
+                    'zipcode=' + zipcode
+
+
+                $.ajax({
                     type: "POST", //METHOD "GET","POST"
                     url: "selectzip", //File ที่ส่งค่าไปหา
                     data: dataString,
                     //cache: false,
                     success: function(data) {
-                        console.log(data);
+
+                        // console.log(data, "hun");
+
                         var data_red = JSON.parse(data)
+                        // console.log(data, 'hi1');
                         // //alert(data);
                         // console.log(data_red.ret_code);
 
-                        // if (data_red.ret == 101) {
-                        //     window.location.href = "https://together-gladly-airedale.ngrok-free.app/service/login_form"
-                        //     // $("#c_password").focus();
-                        // } else {
-                        //     // console.log("hi",data_red.msg);
-                        //     $("#wroning").fadeIn();
-                        //     $("#wroning").html(data_red.msg);
-                        // }
+                        if (data_red.ret == 101) {
+                            // $("#province").html(data)
+
+                            function initSelBox_Product() {
+                                console.log(data_red, 'real');
+
+                                var length = data_red.length;
+                                console.log(data_red.province.length);
+
+                                $.each(data_red.province, function(id, name) {
+                                    console.log("name = ", name, "id = ", id);
+                                    var newOption = $('<option/>');
+                                    newOption.text(name);
+                                    newOption.attr('value', id);
+
+                                    $('#province').append(newOption);
+                                });
+
+
+                                $.each(data_red.district, function(id, name) {
+                                    console.log("name = ", name, "id = ", id);
+                                    var newOption = $('<option/>');
+                                    newOption.text(name);
+                                    newOption.attr('value', id);
+                                    $('#district').append(newOption);
+                                });
+
+
+                            }
+
+                            // เรียกฟังก์ชัน
+                            initSelBox_Product();
+                        } else {
+                            // console.log("hi",data_red.msg);
+                            $("#wroning").fadeIn();
+                            $("#wroning").html(data_red.msg);
+                        }
                     }
                 });
             })
-            $("#btn").click(function() {
-                var username = $("#username").val();
-                var password = $("#password").val();
-                var c_password = $("#c_password").val();
-                var name = $("#name").val();
-                var surname = $("#surname").val();
-                var email = $("#email").val();
-                var cid = $("#cid").val();
-                var phonenumber = $("#phonenumber").val();
-                var address = $("#address").val();
-                // alert(numb_1);
+
+            $("#district").change(function() {
+
+                let district = $("#district").val()
+                let dataString =
+                    'district=' + district
+
 
                 $.ajax({
                     type: "POST", //METHOD "GET","POST"
-                    url: "process_register", //File ที่ส่งค่าไปหา
+                    url: "selectdistric", //File ที่ส่งค่าไปหา
                     data: dataString,
                     //cache: false,
                     success: function(data) {
@@ -234,27 +262,85 @@
                         // console.log(data_red.ret_code);
 
                         if (data_red.ret == 101) {
-                            window.location.href = "https://together-gladly-airedale.ngrok-free.app/service/login_form"
-                            // $("#c_password").focus();
-                        } else {
-                            // console.log("hi",data_red.msg);
-                            $("#wroning").fadeIn();
-                            $("#wroning").html(data_red.msg);
+                            // $("#province").html(data)
+
+                            function subdistrict_1() {
+                                console.log(data_red, 'real');
+
+                                let length = data_red.length;
+                                console.log(length);
+
+                                $.each(data_red.sub_district, function(id, name) {
+                                    console.log("name = ", name, "id = ", id);
+                                    var newOption = $('<option/>');
+                                    newOption.text(name);
+                                    newOption.attr('value', id);
+
+                                    $('#subdistricts').append(newOption);
+                                });
+
+
+                            }
+
+                            // เรียกฟังก์ชัน
+                            subdistrict_1();
                         }
-
-
-                        //     result = data_red.data.pros + "=" + data_red.data.result;
-                        // console.log(result);
-                        // $("#result").html(result);
-                        // }else{
-                        //     alert(data_red.msg)
-                        // }
-                        // else{
-                        //     alert("Unsuccess");
                     }
-           
                 });
-            
+            })
+            $("#btn").click(function() {
+                
+                var username = $("#username").val();
+                var password = $("#password").val();
+                var c_password = $("#c_password").val();
+                var name = $("#name").val();
+                var surname = $("#surname").val();
+                var email = $("#email").val();
+                var cid = $("#cid").val();
+                var phonenumber = $("#phonenumber").val();
+                var address = $("#address").val();
+                var province_id = $("#province").val();
+                var zipcode = $("#zipcode").val();
+                var districts = $("#district").val();
+                var subdistricts = $("#subdistricts").val();
+                // alert(numb_1);
+                console.log("zip =",zipcode);
+                console.log("districts =",districts);
+                console.log("subdistricts =",subdistricts);
+                console.log("province_id =",province_id);
+                // $.ajax({
+                //     type: "POST", //METHOD "GET","POST"
+                //     url: "process_register", //File ที่ส่งค่าไปหา
+                //     data: dataString,
+                //     //cache: false,
+                //     success: function(data) {
+                //         console.log(data);
+                //         var data_red = JSON.parse(data)
+                //         // //alert(data);
+                //         // console.log(data_red.ret_code);
+
+                //         if (data_red.ret == 101) {
+                //             window.location.href = "https://together-gladly-airedale.ngrok-free.app/service/login_form"
+                //             // $("#c_password").focus();
+                //         } else {
+                //             // console.log("hi",data_red.msg);
+                //             $("#wroning").fadeIn();
+                //             $("#wroning").html(data_red.msg);
+                //         }
+
+
+                //         //     result = data_red.data.pros + "=" + data_red.data.result;
+                //         // console.log(result);
+                //         // $("#result").html(result);
+                //         // }else{
+                //         //     alert(data_red.msg)
+                //         // }
+                //         // else{
+                //         //     alert("Unsuccess");
+                //     }
+
+                // });
+
 
                 if (username == "") {
 
@@ -400,6 +486,41 @@
                 }
                 $("#wroning").fadeOut(500);
 
+                if (!zipcode) {
+
+                    $("#wroning").fadeIn();
+                    $("#wroning").html("Please enter zipcode");
+                    $("#zipcode").focus();
+                    // $("#wroning").fadeOut(5000);
+                    return false;
+                }
+                // if (!province_id) {
+
+                //     $("#wroning").fadeIn();
+                //     $("#wroning").html("Please choose province_id");
+                //     $("#province").focus();
+                //     // $("#wroning").fadeOut(5000);
+                //     return false;
+                // }
+                // $("#wroning").fadeOut(500);
+                // if (districts == "") {
+
+                //     $("#wroning").fadeIn();
+                //     $("#wroning").html("Please enter districts ");
+                //     $("#cid").focus();
+                //     // $("#wroning").fadeOut(5000);
+                //     return false;
+                // }
+                // $("#wroning").fadeOut(500);
+                // if (subdistricts == "") {
+
+                //     $("#wroning").fadeIn();
+                //     $("#wroning").html("Please enter subdistricts");
+                //     $("#cid").focus();
+                //     // $("#wroning").fadeOut(5000);
+                //     return false;
+                // }
+
                 var data_1 = 1;
                 var dataString =
                     'username=' + username +
@@ -410,10 +531,10 @@
                     '&email=' + email +
                     '&cid=' + cid +
                     '&phonenumber=' + phonenumber +
-                    '&address=' + address;
-                    // '&zipcode='+ zipcode +
-                    // '&districts=' + districts +
-                    // '&subdistricts' + subdistricts; //ค่าที่จะส่งไปพร้อมตัวแปร
+                    '&address=' + address +
+                    '&province_id=' + province_id +
+                    '&districts=' + districts +
+                    '&subdistricts=' + subdistricts; //ค่าที่จะส่งไปพร้อมตัวแปร
                 console.log(dataString);
 
                 $.ajax({
