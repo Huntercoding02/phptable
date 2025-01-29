@@ -7,12 +7,16 @@
     <title>Show table user</title>
     <link rel="stylesheet" href="../day3/color.css" />
     <style>
+        table{
+            border-collapse: collapse;
+        }
         th {
             border: 1px solid black;
         }
 
         td {
             border: 1px solid black;
+            text-align: center;
         }
     </style>
 </head>
@@ -81,9 +85,9 @@
             <td>" . $datetime . "</td>
             <td>" . $updatetime . "</td>
             <td>" . $status . "</td>
-            <td>" . $array_result[$i]-> province. "</td>
-           <td>" . $array_result[$i]-> distric. "</td>
-           <td>" . $array_result[$i]-> subdistric. "</td>
+            <td>" . (isset($array_result[$i]->province) && $array_result[$i]->province ? $array_result[$i]->province : '-'). "</td>
+           <td>" . (isset($array_result[$i]->distric) && $array_result[$i]->distric ? $array_result[$i]->distric : '-'). "</td>
+           <td>" . (isset($array_result[$i]->subdistric) && $array_result[$i]->subdistric ? $array_result[$i]->subdistric : '-'). "</td>
             <td><input type='hidden' name='id_show' value='" . $array_result[$i]->id . "' />
                 <button type='submit' name='button_del'  id='btn_del'>Delete</button><br>
 

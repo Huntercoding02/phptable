@@ -75,7 +75,7 @@
                     Citizin ID :
                 </td>
                 <td class="table_data">
-                    <input placeholder="Enter Your Citizin ID" type="number" name="cid" id="cid" pattern="\d*" maxlength="13">
+                    <input placeholder="Enter Your Citizin ID" type="text" name="cid" id="cid" pattern="\d" maxlength="13">
                     <span style="color: red;">*</span></th>
                 </td>
 
@@ -117,7 +117,7 @@
                 <td class="table_data">
 
                     <select name="province" id="province">
-                        <option value=" ">Province</option>
+                        <option value="">-Province-</option>
                     </select>
                     <span style="color: red;">*</span></th>
                 </td>
@@ -129,7 +129,7 @@
                 </td>
                 <td class="table_data">
                     <select name="district" id="district">
-                        <option value=" ">District</option>
+                        <option value=" ">-District-</option>
                     </select>
                     <span style="color: red;">*</span></th>
                 </td>
@@ -142,7 +142,7 @@
                 <td class="table_data">
 
                     <select name="subdistricts" id="subdistricts">
-                        <option value=" ">Sub District</option>
+                        <option value=" ">-Sub District-</option>
                     </select>
                     <span style="color: red;">*</span></th>
                 </td>
@@ -178,12 +178,33 @@
         $(document).ready(function() {
             console.log("ready!");
             $("#zipcode").keyup(function() {
-
+                
                 let zipcode = $("#zipcode").val()
+                
                 if (zipcode.length != 5) {
+                    
+                    $("#province").empty().append(new Option("-Province-", "-"));
+                    $("#district").empty().append(new Option("-District-", "-"));
+                    $("#subdistricts").empty().append(new Option("-Sub Districts-", "-"));
+                   
                     return false
                 }
+                
+                let Province = $('<option/>');
+                    Province.text('-Province-');
+                    Province.attr('value', '-');
+                    // $('#province').append(newOption);
 
+                    let district = $('<option/>');
+                    district.text('-District-');
+                    district.attr('value', '-');
+                    // $('#district').append(newOption);
+
+                    let subdistricts = $('<option/>');
+                    subdistricts.text('-Sub Districts-');
+                    subdistricts.attr('value', '-');
+                    // $('#subdistricts').append(newOption);
+                
                 let dataString =
                     'zipcode=' + zipcode
 
@@ -204,13 +225,19 @@
 
                         if (data_red.ret == 101) {
                             // $("#province").html(data)
-
+                            $("#province").empty();
+                            $("#district").empty();
+                           $("#subdistricts").empty();
                             function initSelBox_Product() {
                                 console.log(data_red, 'real');
 
                                 var length = data_red.length;
                                 console.log(data_red.province.length);
 
+                                var newOption = $('<option/>');
+                                newOption.text('-Province-');
+                                newOption.attr('value', '-');
+                                $('#province').append(newOption);
                                 $.each(data_red.province, function(id, name) {
                                     console.log("name = ", name, "id = ", id);
                                     var newOption = $('<option/>');
@@ -220,20 +247,32 @@
                                     $('#province').append(newOption);
                                 });
 
+                                let firstValue = $("#province option:eq(1)").val();
+                                if (firstValue) {
+                                    $("#province").val(firstValue).trigger('change');
+                                }
 
+                                var newOption = $('<option/>');
+                                newOption.text('-District-');
+                                newOption.attr('value', '-');
+                                $('#district').append(newOption);
                                 $.each(data_red.district, function(id, name) {
                                     console.log("name = ", name, "id = ", id);
-                                    var newOption = $('<option/>');
+                                    newOption = $('<option/>');
                                     newOption.text(name);
                                     newOption.attr('value', id);
                                     $('#district').append(newOption);
                                 });
-
+                                var newOption = $('<option/>');
+                                newOption.text('-Sub District-');
+                                newOption.attr('value', '-');
+                                $('#subdistricts').append(newOption);
 
                             }
 
                             // เรียกฟังก์ชัน
                             initSelBox_Product();
+
                         } else {
                             // console.log("hi",data_red.msg);
                             $("#wroning").fadeIn();
@@ -246,8 +285,7 @@
             $("#district").change(function() {
 
                 let district = $("#district").val()
-                let dataString =
-                    'district=' + district
+                let dataString = 'district=' + district
 
 
                 $.ajax({
@@ -262,34 +300,17 @@
                         // console.log(data_red.ret_code);
 
                         if (data_red.ret == 101) {
-                            // $("#province").html(data)
-
-                            function subdistrict_1() {
-                                console.log(data_red, 'real');
-
-                                let length = data_red.length;
-                                console.log(length);
-
-                                $.each(data_red.sub_district, function(id, name) {
-                                    console.log("name = ", name, "id = ", id);
-                                    var newOption = $('<option/>');
-                                    newOption.text(name);
-                                    newOption.attr('value', id);
-
-                                    $('#subdistricts').append(newOption);
-                                });
-
-
-                            }
-
+                            // $("#province").html(data)                       
                             // เรียกฟังก์ชัน
-                            subdistrict_1();
+                            
+                            subdistrict_1(data_red);
+                            
                         }
                     }
                 });
             })
             $("#btn").click(function() {
-                
+
                 var username = $("#username").val();
                 var password = $("#password").val();
                 var c_password = $("#c_password").val();
@@ -304,10 +325,10 @@
                 var districts = $("#district").val();
                 var subdistricts = $("#subdistricts").val();
                 // alert(numb_1);
-                console.log("zip =",zipcode);
-                console.log("districts =",districts);
-                console.log("subdistricts =",subdistricts);
-                console.log("province_id =",province_id);
+                // console.log("zip =", zipcode);
+                // console.log("districts =", districts);
+                // console.log("subdistricts =", subdistricts);
+                // console.log("province_id =", province_id);
                 // $.ajax({
                 //     type: "POST", //METHOD "GET","POST"
                 //     url: "process_register", //File ที่ส่งค่าไปหา
@@ -494,32 +515,32 @@
                     // $("#wroning").fadeOut(5000);
                     return false;
                 }
-                // if (!province_id) {
+                if (!province_id|| province_id == "-") {
 
-                //     $("#wroning").fadeIn();
-                //     $("#wroning").html("Please choose province_id");
-                //     $("#province").focus();
-                //     // $("#wroning").fadeOut(5000);
-                //     return false;
-                // }
+                    $("#wroning").fadeIn();
+                    $("#wroning").html("Please choose provinces");
+                    $("#province").focus();
+                    // $("#wroning").fadeOut(5000);
+                    return false;
+                }
                 // $("#wroning").fadeOut(500);
-                // if (districts == "") {
+                if (districts == "" || districts == "-") {
 
-                //     $("#wroning").fadeIn();
-                //     $("#wroning").html("Please enter districts ");
-                //     $("#cid").focus();
-                //     // $("#wroning").fadeOut(5000);
-                //     return false;
-                // }
+                    $("#wroning").fadeIn();
+                    $("#wroning").html("Please choose districts ");
+                    $("#districts").focus();
+                    // $("#wroning").fadeOut(5000);
+                    return false;
+                }
                 // $("#wroning").fadeOut(500);
-                // if (subdistricts == "") {
+                if (subdistricts == ""|| subdistricts == "-") {
 
-                //     $("#wroning").fadeIn();
-                //     $("#wroning").html("Please enter subdistricts");
-                //     $("#cid").focus();
-                //     // $("#wroning").fadeOut(5000);
-                //     return false;
-                // }
+                    $("#wroning").fadeIn();
+                    $("#wroning").html("Please choose subdistricts");
+                    $("#subdistricts").focus();
+                    // $("#wroning").fadeOut(5000);
+                    return false;
+                }
 
                 var data_1 = 1;
                 var dataString =
@@ -572,6 +593,27 @@
 
             });
         });
+
+        function subdistrict_1(data_red) {
+            console.log(data_red, 'real');
+            $("#subdistricts").empty();
+            let length = data_red.length;
+            console.log(length);
+            var newOption = $('<option/>');
+                            newOption.text('-Sub District-');
+                            newOption.attr('value', '-');
+                            $('#subdistricts').append(newOption);
+            $.each(data_red.sub_district, function(id, name) {
+                console.log("name = ", name, "id = ", id);
+                var newOption = $('<option/>');
+                newOption.text(name);
+                newOption.attr('value', id);
+
+                $('#subdistricts').append(newOption);
+            });
+
+
+        }
     </script>
 </body>
 
